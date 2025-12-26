@@ -10,6 +10,7 @@ while True:
     if choix == "4":
         break
 
+
 clients = {}
 
 def supprimer_clienr():
@@ -17,3 +18,12 @@ def supprimer_clienr():
     nom = input("Nom : ")
     clients[code] = {"nom": nom}
     print("Client supprimer")
+=======
+clients = {}
+
+def ajouter_client():
+    code = input("Code client : ")
+    nom = input("Nom : ")
+    clients[code] = {"nom": nom}
+    print("Client ajouté")
+
