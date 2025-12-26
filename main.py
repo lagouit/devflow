@@ -9,3 +9,10 @@ while True:
     choix = input("Choix : ")
     if choix == "4":
         break
+clients = {}
+
+def ajouter_client():
+    code = input("Code client : ")
+    nom = input("Nom : ")
+    clients[code] = {"nom": nom}
+    print("Client ajouté")
